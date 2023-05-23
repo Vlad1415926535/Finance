@@ -582,20 +582,6 @@ def Game():
             clock.tick(30)
             pygame.display.update()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def BG(p, corcol):
 
     R = (p.color[1][0] - p.color[0][0])/W
@@ -793,8 +779,6 @@ def Fullscreen():
         win = pygame.display.set_mode((W, H), pygame.FULLSCREEN)
         full = True
         addcl = 50
-
-
 
 players = Howmuch()
 Names(players)
